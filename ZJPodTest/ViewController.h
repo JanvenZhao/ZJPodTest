@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GCDAsyncSocket.h"
+#import "/GCDAsyncSocket.h"
 @interface ViewController : UIViewController
 @property (nonatomic,strong) GCDAsyncSocket *longConnect_socket;
 @property (nonatomic,strong) GCDAsyncSocket *shortConnect_socket;
